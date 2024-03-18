@@ -7,7 +7,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-django = "^5.0.1"
+django = "^5.0.3"
 django-tailwind-cli = "^2.8.0"
 django-google-fonts = "^0.0.3"
 playwright = "^1.40.0"
