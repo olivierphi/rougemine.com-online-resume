@@ -141,7 +141,7 @@ def processed_project_content(content: str) -> str:
 
 def _process_project_tech_pattern(match: re.Match) -> str:
     return (
-        f"""<span class="{_HIGHLIGHT_CLASSES}">"""
+        f"""<span class="{_HIGHLIGHT_CLASSES} text-nowrap">"""
         f"""<img src="{static(f"img/icons/techs/{match['tech']}.png")}" """
         """class="size-4 inline-block" width="16" height="16" alt=""> """
     )

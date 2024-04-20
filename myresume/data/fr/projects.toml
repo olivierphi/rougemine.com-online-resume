@@ -1,11 +1,14 @@
 [[projects]]
 title = "Torchbox"
 content = """
-Livraison de sites avec une deadline courte pour les clients de
-<a href="https://www.torchbox.com/">Torchbox</a>, basés sur
+Lead developer sur différnents projets pour les clients de
+l'agence Web <a href="https://www.torchbox.com/">Torchbox</a>, basés sur
+<span class="tech tech-with-icon python">Python</span>,
 <span class="tech tech-with-icon django">Django</span>,
-<span class="tech tech-with-icon wagtail">Wagtail</span> et
-<span class="tech tech-with-icon htmx">HTMX</span>.
+<span class="tech tech-with-icon wagtail">Wagtail</span>,
+<span class="tech tech-with-icon htmx">HTMX</span>,
+<span class="tech tech-with-icon nodejs">Node.js</span> et
+<span class="tech tech-with-icon react">React</span>.
 """
 [[projects]]
 title = "SportEasy"
@@ -17,19 +20,19 @@ pour <a href="https://www.sporteasy.net/">SportEasy</a>.
 [[projects]]
 title = "PlanHub.ca"
 content = """
-En charge d'une API  GraphQL en tant que freelance <a href="https://www.planhub.ca/">PlanHub.ca</a>,
-motorisés par <span class="tech tech-with-icon go">Go</span> et AWS DynamoDB.
+En charge d'une API  GraphQL en tant que freelance pour <a href="https://www.planhub.ca/">PlanHub.ca</a>,
+motorisés par <span class="tech tech-with-icon go">Go</span> et <span class="tech tech-with-icon aws">AWS DynamoDB</span> -
+et déployée sous forme de function serverless <span class="tech tech-with-icon aws">Lambda</span>.
 """
-not_on_pdf = true
 [[projects]]
 title = "Neve"
 content = """
 Lead Developer <span class="tech tech-with-icon django">Django</span> et
 <span class="tech tech-with-icon nextjs">Next.js</span>
 pour le pilote de la plateforme de e-learning
-<a href="https://www.nevelearning.co.uk/">Neve</a>.
+<a href="https://www.nevelearning.co.uk/">Neve</a>, déployée
+sur <span class="tech tech-with-icon aws">AWS</span>.
 """
-not_on_pdf = true
 [[projects]]
 title = "Cloud Solar"
 content = """
@@ -48,6 +51,7 @@ Lead Développeur
 pour la nouvelle version du site et du CMS de <a href="https://www.collectorsquare.com/">Collector Square</a>
 basés sur <span class="tech tech-with-icon elasticsearch">Elasticsearch</span> et
 <span class="tech tech-with-icon redis">Redis</span>."""
+not_on_pdf = true
 [[projects]]
 title = "Balinea"
 content = """
@@ -56,6 +60,7 @@ Lead Développeur
 <span class="tech tech-with-icon javascript">JavaScript</span>
 pour la refonte de la plateforme <a href="https://www.balinea.com/">Balinea</a>
 - qui inclut le site public, un middle-office, un back-end, deux API (une publique et une privée)..."""
+not_on_pdf = true
 [[projects]]
 title = "LeMonde.fr"
 content = """

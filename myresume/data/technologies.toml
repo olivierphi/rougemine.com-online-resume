@@ -12,13 +12,13 @@ icon = "wagtail"
 url = "https://wagtail.org/"
 
 [[main]]
-title = "TypeScript"
-icon = "typescript"
-url = "https://www.typescriptlang.org/"
-[[main]]
 title = "PostgreSQL"
 icon = "postgres"
 url = "https://www.postgresql.org/about/"
+[[main]]
+title = "TypeScript"
+icon = "typescript"
+url = "https://www.typescriptlang.org/"
 [[main]]
 title = "HTML / CSS"
 icon = "html5"
@@ -32,8 +32,24 @@ url = "https://graphql.org/"
 title = "REST"
 icon = "rest"
 [[others]]
+title = "HTMX"
+icon = "htmx"
+url = "https://htmx.org/"
+[[others]]
+title = "Heroku"
+icon = "heroku"
+url = "https://www.heroku.com/"
+[[others]]
+title = "AWS"
+icon = "aws"
+url = "https://aws.amazon.com/"
+[[others]]
 title = "JavaScript"
 icon = "javascript"
+[[others]]
+title = "Node.js"
+icon = "nodejs"
+url = "https://nodejs.org/en/about/"
 [[others]]
 title = "React"
 icon = "react"
@@ -43,17 +59,9 @@ title = "Next.js"
 icon = "nextjs"
 url = "https://nextjs.org/"
 [[others]]
-title = "HTMX"
-icon = "htmx"
-url = "https://htmx.org/"
-[[others]]
 title = "Tailwind"
 icon = "tailwind"
 url = "https://tailwindcss.com/"
-[[others]]
-title = "Node.js"
-icon = "nodejs"
-url = "https://nodejs.org/en/about/"
 [[others]]
 title = "Redis"
 icon = "redis"
@@ -65,10 +73,6 @@ icon = "mysql"
 title = "Elasticsearch"
 icon = "elasticsearch"
 url = "https://www.elastic.co/products/elasticsearch"
-[[others]]
-title = "Algolia"
-icon = "algolia"
-url = "https://www.algolia.com/"
 [[others]]
 title = "MQTT"
 icon = "mqtt"
@@ -84,18 +88,11 @@ url = "https://go.dev/"
 [[others]]
 title = "PHP"
 icon = "php"
+url = "https://www.php.net/"
 [[others]]
 title = "Symfony"
 icon = "symfony2"
 url = "https://symfony.com"
-[[others]]
-title = "Laravel"
-icon = "laravel"
-url = "https://laravel.com"
-[[others]]
-title = "Ruby"
-icon = "ruby"
-url = "https://www.ruby-lang.org/"
 [[others]]
 title = "Ruby on Rails"
 icon = "rails"
