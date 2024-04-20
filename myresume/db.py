@@ -50,7 +50,7 @@ def projects(lang: "Lang") -> "ProjectsData":
 
 
 def clear_cache() -> None:
-    for cached_function in (pages, i18n, document, bio, tech, job_experience):
+    for cached_function in (pages, i18n, document, bio, tech, projects, job_experience):
         cached_function.cache_clear()  # type: ignore
     _logger.info("DB cache cleared")
 

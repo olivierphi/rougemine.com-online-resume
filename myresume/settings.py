@@ -24,7 +24,10 @@ if DEBUG:
 
 MIDDLEWARE = []
 if DEBUG:
-    MIDDLEWARE += ["django_browser_reload.middleware.BrowserReloadMiddleware"]
+    MIDDLEWARE += [
+        "django_browser_reload.middleware.BrowserReloadMiddleware",
+        "myresume.middlewares.TOMLCacheClearingMiddleware",
+    ]
 
 ROOT_URLCONF = "myresume.urls"
 
