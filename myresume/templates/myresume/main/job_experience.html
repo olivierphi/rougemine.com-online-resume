@@ -9,7 +9,7 @@
 {% block content %}
     <ul class="pl-4 pr-1 list-disc sm:pr-0 print:text-sm print:pl-4">
         {% for job in jobs_data.jobs %}
-            <li class="mb-1 text-justify {% if job.not_on_pdf %}print:hidden{% endif %}"
+            <li class="mb-1 {% if job.not_on_pdf %}print:hidden{% endif %}"
                 {% if job.organisation %} itemscope itemtype="https://schema.org/Organization" itemprop="{{ job.current|yesno:"worksFor,alumniOf" }}" {% endif %}>
                 {% if job.organisation %}
                     <meta itemprop="name" content="{{ job.organisation.name }}" />
@@ -22,11 +22,11 @@
             </li>
         {% endfor %}
     </ul>
-    <div class="hidden my-1 font-semibold italic {% theme element_id="HIGHLIGHT" %} print:!block">
-        ⇒ {{ i18n_data.misc.exhaustive_list_link }}
+    <div class="mt-4 text-right font-semibold italic {% theme element_id="HIGHLIGHT" %} print:!mt-2 print:text-xs">
+        {% svg_icon "list" classes="size-6 inline print:!size-4" %}
         <a href="https://www.linkedin.com{{ bio_data.linked_in }}"
            class="underline"
            target="_blank"
-           rel="noopener">LinkedIn</a>
+           rel="noopener">{{ i18n_data.misc.exhaustive_list_link }}</a>
     </div>
 {% endblock content %}

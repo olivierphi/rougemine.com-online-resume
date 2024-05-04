@@ -7,30 +7,34 @@ title = "Django"
 icon = "django"
 url = "https://www.djangoproject.com/start/overview/"
 [[main]]
-title = "Wagtail"
-icon = "wagtail"
-url = "https://wagtail.org/"
-
-[[main]]
 title = "PostgreSQL"
 icon = "postgres"
 url = "https://www.postgresql.org/about/"
+
 [[main]]
 title = "TypeScript"
 icon = "typescript"
 url = "https://www.typescriptlang.org/"
 [[main]]
+title = "Node.js"
+icon = "nodejs"
+url = "https://nodejs.org/"
+[[main]]
+title = "React"
+icon = "react"
+url = "https://react.dev/"
+
+
+[[others]]
 title = "HTML / CSS"
 icon = "html5"
-
-
+[[others]]
+title = "REST"
+icon = "rest"
 [[others]]
 title = "GraphQL"
 icon = "graphql"
 url = "https://graphql.org/"
-[[others]]
-title = "REST"
-icon = "rest"
 [[others]]
 title = "HTMX"
 icon = "htmx"
@@ -47,14 +51,6 @@ url = "https://aws.amazon.com/"
 title = "JavaScript"
 icon = "javascript"
 [[others]]
-title = "Node.js"
-icon = "nodejs"
-url = "https://nodejs.org/en/about/"
-[[others]]
-title = "React"
-icon = "react"
-url = "https://reactjs.org/"
-[[others]]
 title = "Next.js"
 icon = "nextjs"
 url = "https://nextjs.org/"
@@ -62,6 +58,10 @@ url = "https://nextjs.org/"
 title = "Tailwind"
 icon = "tailwind"
 url = "https://tailwindcss.com/"
+[[others]]
+title = "Wagtail"
+icon = "wagtail"
+url = "https://wagtail.org/"
 [[others]]
 title = "Redis"
 icon = "redis"

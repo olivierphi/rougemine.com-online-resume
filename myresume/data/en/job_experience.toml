@@ -1,53 +1,20 @@
 [[jobs]]
-period = "May 2023 - Present"
+period = "Since 2023"
 content = """
-    <b>Senior Python developer</b> for the Web agency
-    <a href="https://www.torchbox.com/">Torchbox</a>. (Django/Wagtail)"""
+    Django, Wagtail, Node.js and React <b>Senior developer</b> for the Web agency
+    <a href="https://www.torchbox.com/">Torchbox</a>."""
 organisation = { name="Torchbox", url="https://www.torchbox.com/" }
 current = true
 [[jobs]]
-period = "September 2022 - April 2023"
+period = "2018 - 2021"
 content = """
-    <b>Senior Django developer</b> as a contractor for
-    <a href="https://www.sporteasy.net/">SportEasy</a>."""
-organisation = { name="SportEasy", url="https://www.sporteasy.net/en/" }
-[[jobs]]
-period = "March 2022 - July 2022"
-content = """
-    <b>Senior software engineer</b> at
-    <a href="https://www.textualize.io/">Textualize</a>. (Python/Next.js)"""
-organisation = { name="Textualize", url="https://www.textualize.io/" }
-not_on_pdf = true
-[[jobs]]
-period = "February 2022 - March 2022"
-content = """
-    <b>Senior product engineer</b> at
-    <a href="https://www.wayflyer.com/">Wayflyer</a>. (Django/React)"""
-organisation = { name="Wayflyer", url="https://www.wayflyer.com/" }
-not_on_pdf = true
-[[jobs]]
-period = "October 2021 - January 2022"
-content = """
-    <b>Senior backend developer</b> as a contractor for
-    <a href="https://www.planhub.ca/">PlanHub.ca</a> (Go) and
-    <a href="https://www.inclusive.energy/cloud-solar">Inclusive Energy</a>. (Django)"""
-organisation = { name="Wayflyer", url="https://www.planhub.ca/" }
-[[jobs]]
-period = "October 2018 - May 2021"
-content = """
-    <b>Lead developer</b> at
-    <a href="https://inclusive.energy/charge-controllers">Inclusive Energy</a>. (Django/React)"""
+    Django and React <b>Lead developer</b> for
+    <a href="https://inclusive.energy/charge-controllers">Inclusive Energy</a>."""
 organisation = { name="Inclusive Energy", url="https://inclusive.energy/" }
 [[jobs]]
-period = "December 2017 - May 2018"
+period = "2017"
 content = """
-    Remote <b>lead PHP developer</b> as a contractor for
-    <a href="https://www.coachhub.com/en/moovone/">MoovOne</a>."""
-not_on_pdf = true
-[[jobs]]
-period = "2016 - November 2017"
-content = """
-    <b>Lead PHP APIs developer</b> at
+    <b>Lead PHP APIs developer</b> for
     <a href="https://www.postcodelottery.co.uk/">People's Postcode Lottery</a>."""
 organisation = { name="People's Postcode Lottery", url="https://www.postcodelottery.co.uk/" }
 [[jobs]]
@@ -60,16 +27,16 @@ organisation = { name="KNP Labs", url="https://knplabs.com/en/" }
 period = "2008 - 2014"
 content = """
     <b>PHP / JavaScript / Ruby / Flash freelance developer</b>,
-    working with companies like
+    working with companies such as
     <a href="https://www.lemonde.fr/">Le Monde</a>,
     <a href="https://en.mappy.com/">Mappy</a>,
     <a href="https://www.uzik.com/">Uzik</a>..."""
 [[jobs]]
-period = "January to May 2009"
+period = "2009"
 content = """
     <b>Flash Lead Developer</b> at Tribal Nova (Montréal, QC)."""
 [[jobs]]
-period = "2006 to 2007"
+period = "2006 - 2007"
 content = """
     <b>Flash / PHP Developper</b> for the Web agency "Les Chinois"."""
 not_on_pdf = true
@@ -79,6 +46,6 @@ content = """
     <b>Flash / PHP Developer</b> for the Web agency WCube."""
 not_on_pdf = true
 [[jobs]]
-period = "2000 to 2004"
+period = "2000 - 2004"
 content = """
     <b>Web Developer</b> for the Web agency "Lp Digital"."""

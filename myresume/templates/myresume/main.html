@@ -1,4 +1,5 @@
 {% load myresume_tags %}
+
 <main class="w-full p-1 md:p-6 print:p-2 {% layout_debug border_color="purple-800" %}">
     <div class="mt-14 mb-8 md:!mt-2 print:mb-1">
         <h1 class="-ml-1 my-2 text-5xl md:text-6xl font-medium {% theme element_id="TITLE" %} md:-ml-2 print:!text-5xl print:my-0">
@@ -12,5 +13,6 @@
         {% include "myresume/main/main_skills.html" %}
         {% include "myresume/main/job_experience.html" %}
         {% include "myresume/main/projects.html" %}
+
     </div>
 </main>
