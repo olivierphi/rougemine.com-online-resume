@@ -67,6 +67,9 @@ title = "Redis"
 icon = "redis"
 url = "https://www.redis.io/"
 [[others]]
+title = "SQLite"
+icon = "sqlite"
+[[others]]
 title = "MySQL"
 icon = "mysql"
 [[others]]
