@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "my-resume"
 version = "0.1.0"
-description = "Olivier Philippon's hand-crafted resume 🤓"
+description = "Olivier Philippon's ~over-engineered~ hand-crafted resume 🤓"
 authors = ["Olivier Philippon <olivier@dunsap.com>"]
 readme = "README.md"
 
@@ -11,6 +11,7 @@ django = "^5.0.3"
 django-tailwind-cli = "^2.8.0"
 django-google-fonts = "^0.0.3"
 playwright = "^1.40.0"
+pillow = "^10.3.0"
 
 
 [tool.poetry.group.dev.dependencies]
@@ -21,7 +22,6 @@ ruff = "^0.1.9"
 ipython = "^8.19.0"
 django-browser-reload = "^1.12.1"
 djlint = "^1.34.1"
-pillow = "^10.3.0"
 
 
 [tool.poetry.group.deployment.dependencies]
