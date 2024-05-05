@@ -1,7 +1,11 @@
+{% extends "myresume/about/_base_section.html" %}
+
 {% load myresume_tags %}
 
-<section>
-    {% svg_icon "side-projects" classes="size-8 print:size-6" %}
-    {% about_section_title i18n_data.side_projects.title %}
+{% block caption %}
+    {% about_section_caption i18n_data.side_projects.title icon="side-projects" %}
+{% endblock caption %}
+
+{% block content %}
     <p itemprop="owns">{{ i18n_data.side_projects.content|safe }}</p>
-</section>
+{% endblock content %}

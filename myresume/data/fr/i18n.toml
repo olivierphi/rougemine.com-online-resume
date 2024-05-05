@@ -4,7 +4,7 @@ language = "langue :"
 theme = "passer au thème :"
 
 [open_source_projects]
-title = "Projets Open Source"
+title = "Open Source"
 
 [hobbies]
 title = "Centres d'intérêts"
@@ -13,12 +13,12 @@ content = "Course à pied, bloc"
 [side_projects]
 title = "Projets personnels"
 content = """
-<a href="https://zakuchess.com/" class="underline" target="_blank" rel="noopener">ZakuChess ♞</a>,
-mon jeu Web open source.
+<a href="https://zakuchess.com/" class="underline" target="_blank" rel="noopener">ZakuChess</a>,
+mon jeu Web open source ♞.
 """
 
 [teaching]
-title = "Formateur en développement Web"
+title = "Formateur"
 content = """
 Enseignant pour l'école
 <a href="https://www.digital-campus.fr/" class="underline" target="_blank" rel="noopener">Digital Campus</a>

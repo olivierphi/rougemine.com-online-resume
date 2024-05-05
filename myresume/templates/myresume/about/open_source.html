@@ -1,8 +1,12 @@
+{% extends "myresume/about/_base_section.html" %}
+
 {% load myresume_tags %}
 
-<section>
-    {% svg_icon "open-source" classes="size-8 print:size-6" %}
-    {% about_section_title i18n_data.open_source_projects.title %}
+{% block caption %}
+    {% about_section_caption i18n_data.open_source_projects.title icon="open-source" %}
+{% endblock caption %}
+
+{% block content %}
     <p>
         <a class="underline"
            href="https://github.com/{{ bio_data.github_id }}"
@@ -10,4 +14,4 @@
            target="_blank"
            rel="noopener">github.com/{{ bio_data.github_id }}</a>
     </p>
-</section>
+{% endblock content %}

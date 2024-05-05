@@ -7,9 +7,9 @@
 {% endblock title %}
 
 {% block content %}
-    <ul class="pl-4 pr-1 list-disc sm:pr-0 print:text-sm print:pl-4">
+    <ul class="pl-6 list-disc sm:pr-0 print:text-sm print:pl-4">
         {% for job in jobs_data.jobs %}
-            <li class="mb-1 {% if job.not_on_pdf %}print:hidden{% endif %}"
+            <li class="mb-1.5 {% if job.not_on_pdf %}print:hidden{% endif %}"
                 {% if job.organisation %} itemscope itemtype="https://schema.org/Organization" itemprop="{{ job.current|yesno:"worksFor,alumniOf" }}" {% endif %}>
                 {% if job.organisation %}
                     <meta itemprop="name" content="{{ job.organisation.name }}" />

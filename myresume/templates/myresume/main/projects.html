@@ -7,9 +7,9 @@
 {% endblock title %}
 
 {% block content %}
-    <ul class="pl-4 pr-1 list-disc sm:pr-0 print:text-sm print:pl-4">
+    <ul class="pl-6 pr-1 list-disc sm:pr-0 print:text-sm  print:pl-4">
         {% for project in projects_data.projects %}
-            <li class="mb-1 {% if project.not_on_pdf %}print:hidden{% endif %}">
+            <li class="mb-1.5 {% if project.not_on_pdf %}print:hidden{% endif %}">
                 <span class="font-bold">{{ project.title }}:</span>
                 <span class="*:decoration-dotted *:underline-offset-2">
                     {{ project.content|processed_project_content|safe }}

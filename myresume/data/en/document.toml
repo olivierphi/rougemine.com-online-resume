@@ -1,6 +1,9 @@
-subtitle = "Passionate Web developer since 1999"
+# This subtitle may actually look a bit odd on something as formal as a CV...
+# subtitle = "Passionate Web developer since 1999"
+# ...so let's just use a more traditional one:
+subtitle = "Python & JavaScript web developer"
 
 [meta]
-title =  "Olivier Philippon - Web developer since 1999"
-description = "Olivier Philippon - Web Developer since 1999 - Django and JavaScript developer"
-keywords = ["web development", "resume", "python", "django", "postgresql"]
+title =  "Olivier Philippon - Passionate web developer since 1999"
+description = "Olivier Philippon - Web Developer since 1999 - Python and JavaScript developer"
+keywords = ["web development", "resume", "python", "django", "node.js", "typescript"]

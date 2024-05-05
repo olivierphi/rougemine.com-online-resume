@@ -1,0 +1,6 @@
+{% load myresume_tags %}
+
+<div class="flex items-center mb-1">
+    {% svg_icon icon classes="-ml-0.5 inline-block size-8 print:size-6" %}
+    <span class="inline-block ml-1" {{ itemprop_attr }}>{{ title }}</span>
+</div>

@@ -1,12 +1,16 @@
+{% extends "myresume/about/_base_section.html" %}
+
 {% load myresume_tags %}
 
-<section>
-    {% svg_icon "education" classes="size-8 print:size-6" %}
-    {% about_section_title i18n_data.education.title %}
+{% block caption %}
+    {% about_section_caption i18n_data.education.title icon="education" %}
+{% endblock caption %}
+
+{% block content %}
     <p>
         {{ i18n_data.education.src }}
         <br />
         <i>{{ i18n_data.education.src_details }}</i>
     </p>
     <p class="mt-2">{{ i18n_data.education.baccalaureate }}</p>
-</section>
+{% endblock content %}

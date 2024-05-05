@@ -1,7 +1,11 @@
+{% extends "myresume/about/_base_section.html" %}
+
 {% load myresume_tags %}
 
-<section>
-    {% svg_icon "hobbies" classes="size-8 print:size-6" %}
-    {% about_section_title i18n_data.hobbies.title %}
+{% block caption %}
+    {% about_section_caption i18n_data.hobbies.title icon="hobbies" %}
+{% endblock caption %}
+
+{% block content %}
     <p itemprop="knowsAbout">{{ i18n_data.hobbies.content }}</p>
-</section>
+{% endblock content %}

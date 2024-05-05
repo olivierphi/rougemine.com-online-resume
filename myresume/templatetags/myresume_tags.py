@@ -50,6 +50,15 @@ def svg_icon(icon: str, *, classes: str = "size-6"):
     )
 
 
+@register.inclusion_tag("myresume/about/tags/_about_section_caption.html")
+def about_section_caption(title: str, *, icon: str, itemprop: str | None = None):
+    return {
+        "title": title,
+        "icon": icon,
+        "itemprop_attr": f'itemprop="{itemprop}"' if itemprop else "",
+    }
+
+
 @register.simple_tag
 def about_section_icon(icon: str):
     return mark_safe(f'<img src="{static(icon)}" width="40" height="40" alt="">')

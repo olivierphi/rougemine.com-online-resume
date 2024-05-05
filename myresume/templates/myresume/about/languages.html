@@ -1,9 +1,13 @@
+{% extends "myresume/about/_base_section.html" %}
+
 {% load myresume_tags %}
 
-<section>
-    {% svg_icon "languages" classes="size-8 print:size-6" %}
-    {% about_section_title i18n_data.languages.title %}
+{% block caption %}
+    {% about_section_caption i18n_data.languages.title icon="languages" %}
+{% endblock caption %}
+
+{% block content %}
     {% for lang in i18n_data.languages.list %}
         <p itemprop="knowsLanguage">{{ lang }}</p>
     {% endfor %}
-</section>
+{% endblock content %}

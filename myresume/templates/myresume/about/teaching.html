@@ -1,7 +1,11 @@
+{% extends "myresume/about/_base_section.html" %}
+
 {% load myresume_tags %}
 
-<section>
-    {% svg_icon "teaching" classes="size-8 print:size-6" %}
-    {% about_section_title i18n_data.teaching.title %}
+{% block caption %}
+    {% about_section_caption i18n_data.teaching.title icon="teaching" %}
+{% endblock caption %}
+
+{% block content %}
     <p>{{ i18n_data.teaching.content|safe }}</p>
-</section>
+{% endblock content %}

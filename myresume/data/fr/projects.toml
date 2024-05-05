@@ -66,7 +66,7 @@ title = "LeMonde.fr"
 content = """
 Développeur
 <span class="tech tech-with-icon nodejs">Node.js</span> et
-<span class="tech tech-with-icon javascript">frontend</span>
+<span class="tech tech-with-icon javascript">Backbone.js</span>
 chez <a href="https://www.lemonde.fr/">LeMonde.fr</a>."""
 [[projects]]
 title = "Ruby on Rails Mail App"

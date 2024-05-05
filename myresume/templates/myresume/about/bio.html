@@ -1,18 +1,20 @@
-{% load static myresume_tags %}
+{% extends "myresume/about/_base_section.html" %}
 
-<section>
-    {% svg_icon "bio" classes="size-8 print:size-6" %}
-    <div class="mt-4">
-        <p>
-            <span itemprop="name">{{ bio_data.name }}</span>
-        </p>
+{% load myresume_tags %}
+
+{% block caption %}
+    {% about_section_caption bio_data.name icon="bio" itemprop="name" %}
+{% endblock caption %}
+
+{% block content %}
+    <div>
         <p>
             <a itemprop="email" href="mailto:{{ bio_data.email }}" class="underline">{{ bio_data.email }}</a>
         </p>
         <meta itemprop="jobTitle" content="{{ bio_data.job_title }}" />
         <meta itemprop="url" content="{{ bio_data.url }}" />
     </div>
-    <div class="mt-4">
+    <div class="mt-3">
         <p>
             <span>LinkedIn:</span>
             <br>
@@ -23,7 +25,7 @@
                rel="noopener">{{ bio_data.linked_in }}</a>
         </p>
     </div>
-    <div class="mt-4">
+    <div class="mt-3">
         <p>
             <span>My DevBlog:</span>
             <br>
@@ -34,7 +36,7 @@
                rel="noopener">{{ bio_data.devblog | cut:"https://" }}</a>
         </p>
     </div>
-    <div class="mt-4">
+    <div class="mt-3">
         <p>
             <span>Mastodon:</span>
             <br>
@@ -45,4 +47,4 @@
                rel="noopener">{{ bio_data.mastodon | cut:"https://" }}</a>
         </p>
     </div>
-</section>
+{% endblock content %}

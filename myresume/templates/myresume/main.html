@@ -1,11 +1,11 @@
 {% load myresume_tags %}
 
 <main class="w-full p-1 md:p-6 print:p-2 {% layout_debug border_color="purple-800" %}">
-    <div class="mt-14 mb-8 md:!mt-2 print:mb-1">
-        <h1 class="-ml-1 my-2 text-5xl md:text-6xl font-medium {% theme element_id="TITLE" %} md:-ml-2 print:!text-5xl print:my-0">
+    <div class="mt-14 mb-8 md:!mt-2">
+        <h1 class="-ml-1 mb-2 text-5xl md:text-6xl font-medium {% theme element_id="TITLE" %} md:-ml-2 print:!text-5xl print:mb-1">
             {{ bio_data.name }}
         </h1>
-        <h2 class="my-2 text-lg font-pixel {% theme element_id="SUBTITLE" %} print:text-sm print:my-1">
+        <h2 class="-ml-0.5 my-2 text-2xl font-bold {% theme element_id="SUBTITLE" %} print:text-lg print:my-1">
             {{ document_data.subtitle }}
         </h2>
     </div>
