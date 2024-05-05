@@ -48,6 +48,9 @@ title = "AWS"
 icon = "aws"
 url = "https://aws.amazon.com/"
 [[others]]
+title = "Docker"
+icon = "docker"
+[[others]]
 title = "JavaScript"
 icon = "javascript"
 [[others]]
@@ -59,19 +62,12 @@ title = "Tailwind"
 icon = "tailwind"
 url = "https://tailwindcss.com/"
 [[others]]
-title = "Wagtail"
-icon = "wagtail"
-url = "https://wagtail.org/"
-[[others]]
 title = "Redis"
 icon = "redis"
 url = "https://www.redis.io/"
 [[others]]
 title = "SQLite"
 icon = "sqlite"
-[[others]]
-title = "MySQL"
-icon = "mysql"
 [[others]]
 title = "Elasticsearch"
 icon = "elasticsearch"
@@ -84,6 +80,10 @@ url = "https://mqtt.org/"
 title = "Rabbit MQ"
 icon = "rabbitmq"
 url = "https://www.rabbitmq.com/"
+[[others]]
+title = "Wagtail"
+icon = "wagtail"
+url = "https://wagtail.org/"
 [[others]]
 title = "Go"
 icon = "go"
@@ -100,12 +100,6 @@ url = "https://symfony.com"
 title = "Ruby on Rails"
 icon = "rails"
 url = "https://rubyonrails.org/"
-[[others]]
-title = "Silex"
-icon = "silex"
-url = "https://silex.sensiolabs.org/"
-contributor_url = "https://github.com/fabpot/Silex/commit/6445b9e"
-not_on_pdf = true
 
 [[tools]]
 title = "Git"
