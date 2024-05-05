@@ -55,8 +55,8 @@ def about_section_icon(icon: str):
     return mark_safe(f'<img src="{static(icon)}" width="40" height="40" alt="">')
 
 
-@register.simple_tag
-def theme(*, element_id: str) -> str:
+@register.simple_tag(name="theme")
+def theme_element(*, element_id: str) -> str:
     return _THEME[element_id]
 
 
@@ -85,14 +85,14 @@ def main_section_title(title: str, *, icon: str):
 @register.inclusion_tag("myresume/main/tags/main_tech.html")
 def main_section_main_tech(tech: "MainTechnologyData") -> dict:
     return tech | {
-        "icon_url": static(f"img/icons/techs/{tech['icon']}.png"),
+        "icon_url": static(f"img/icons/techs/{tech['icon']}.colorised.png"),
     }
 
 
 @register.inclusion_tag("myresume/main/tags/other_tech.html")
 def main_section_other_tech(tech: "OtherTechnologyData") -> dict:
     return tech | {
-        "icon_url": static(f"img/icons/techs/{tech['icon']}.png"),
+        "icon_url": static(f"img/icons/techs/{tech['icon']}.colorised.png"),
     }
 
 
@@ -132,16 +132,20 @@ def processed_project_content(content: str) -> str:
         r"""<a \g<href> class="underline" target="_blank" rel="noopener">""",
         content,
     )
+
     content = _PROJECT_CONTENT_TECH_PATTERN.sub(
         _process_project_tech_pattern,
         content,
     )
+
     return content
 
 
 def _process_project_tech_pattern(match: re.Match) -> str:
     return (
-        f"""<span class="{_HIGHLIGHT_CLASSES} text-nowrap">"""
-        f"""<img src="{static(f"img/icons/techs/{match['tech']}.png")}" """
-        """class="size-4 inline-block" width="16" height="16" alt=""> """
+        f"""<span class="{_HIGHLIGHT_CLASSES} text-nowrap font-semibold">"""
+        # We no longer include the tech icons in the project content,
+        # to make it more readable. Uncomment the following lines to include them.
+        # f"""<img src="{static(f"img/icons/techs/{match['tech']}.png")}" """
+        # """class="size-4 inline-block" width="16" height="16" alt=""> """
     )

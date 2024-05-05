@@ -13,8 +13,8 @@ Leading the development of various projects with tight deadlines for
 [[projects]]
 title = "SportEasy"
 content = """
-Shipped features, fixed bugs and modernised the <span class="tech tech-with-icon django">Django</span> codebase
-as a contractor for <a href="https://www.sporteasy.net/">SportEasy</a>.
+Shipped features, fixed bugs and modernised the <span class="tech tech-with-icon django">Django</span>/<span class="tech tech-with-icon react">React</span>
+codebase for the 3 millions users of the <a href="https://www.sporteasy.net/">SportEasy</a> platform.
 """
 [[projects]]
 title = "PlanHub.ca"
@@ -63,9 +63,8 @@ not_on_pdf = true
 [[projects]]
 title = "LeMonde.fr"
 content = """
-<span class="tech tech-with-icon php">PHP</span>,
 <span class="tech tech-with-icon nodejs">Node.js</span> and
-<span class="tech tech-with-icon javascript">JavaScript</span>
+<span class="tech tech-with-icon javascript">frontend</span>
 developer at <a href="https://www.lemonde.fr/">LeMonde.fr</a>, one of the main French news web site."""
 [[projects]]
 title = "Ruby on Rails Mail App"

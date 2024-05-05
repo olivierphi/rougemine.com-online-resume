@@ -14,8 +14,8 @@ l'agence Web <a href="https://www.torchbox.com/">Torchbox</a>, basés sur
 title = "SportEasy"
 content = """
 Livraison de nouvelles fonctionnalités, correction de bugs et modernisation de la codebase
-en tant que développeur <span class="tech tech-with-icon django">Django</span> Senior
-pour <a href="https://www.sporteasy.net/">SportEasy</a>.
+en tant que freelance <span class="tech tech-with-icon django">Django</span>/<span class="tech tech-with-icon react">React</span>
+pour les 3 millions d'utilisateurs de la plateforme <a href="https://www.sporteasy.net/">SportEasy</a>.
 """
 [[projects]]
 title = "PlanHub.ca"
@@ -65,9 +65,8 @@ not_on_pdf = true
 title = "LeMonde.fr"
 content = """
 Développeur
-<span class="tech tech-with-icon php">PHP</span>,
 <span class="tech tech-with-icon nodejs">Node.js</span> et
-<span class="tech tech-with-icon javascript">JavaScript</span>
+<span class="tech tech-with-icon javascript">frontend</span>
 chez <a href="https://www.lemonde.fr/">LeMonde.fr</a>."""
 [[projects]]
 title = "Ruby on Rails Mail App"
