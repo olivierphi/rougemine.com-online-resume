@@ -6,6 +6,12 @@ content = """
 organisation = { name="Torchbox", url="https://www.torchbox.com/" }
 current = true
 [[jobs]]
+period = "2022"
+content = """
+    <b>Senior developer</b> en free-lance pour
+    <a href="https://www.sporteasy.net/">SportEasy</a>. (Django/React)"""
+organisation = { name="SportEasy", url="https://www.sporteasy.net/" }
+[[jobs]]
 period = "2018 - 2021"
 content = """
     <b>Lead developer</b> chez

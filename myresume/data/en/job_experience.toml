@@ -6,6 +6,12 @@ content = """
 organisation = { name="Torchbox", url="https://www.torchbox.com/" }
 current = true
 [[jobs]]
+period = "2022"
+content = """
+    Django and React <b>Senior developer</b> for
+    <a href="https://www.sporteasy.net/en/">SportEasy</a>, as a contractor."""
+organisation = { name="SportEasy", url="https://www.sporteasy.net/en/" }
+[[jobs]]
 period = "2018 - 2021"
 content = """
     Django and React <b>Lead developer</b> for
@@ -38,7 +44,7 @@ content = """
 [[jobs]]
 period = "2006 - 2007"
 content = """
-    <b>Flash / PHP Developper</b> for the Web agency "Les Chinois"."""
+    <b>Flash / PHP Developer</b> for the Web agency "Les Chinois"."""
 not_on_pdf = true
 [[jobs]]
 period = "2005"
