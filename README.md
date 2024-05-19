@@ -52,7 +52,7 @@ Alright, let's check that locally:
 ```bash
 $ python -m venv .venv-ci --prompt .venv-ci
 $ source .venv-ci/bin/activate
-(.venv-ci) $ pipx run poetry==1.7.1 install --no-root --only=main,deployment
+(.venv-ci) $ pipx run poetry==1.8.3 install --no-root --only=main,deployment
 (.venv-ci) $ ls -l .venv-ci/lib/python3.12/site-packages/*/METADATA | wc -l
 20 # better! 😌
 ```

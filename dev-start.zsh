@@ -9,7 +9,8 @@ cd ${0:A:h}/ # Change to the directory of the current file
 
 source .venv/bin/activate
 
+alias poetry='pipx run poetry==1.8.3'
 alias djm='python manage.py'
 
 # Show the alias we just defined:
-alias djm
+alias poetry && alias djm
