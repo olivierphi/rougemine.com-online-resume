@@ -24,7 +24,7 @@ class Command(BaseCommand):
         settings.DIST_DIR.mkdir(exist_ok=True)
 
         self.stdout.write("Building Tailwind CSS file...")
-        management.call_command("tailwind", "build", verbosity=1)
+        management.call_command("tailwind", "build")
         self.stdout.write("")
 
         self.stdout.write("Collecting static files...")
